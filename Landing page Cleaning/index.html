@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700,900&display=swap"
+			rel="stylesheet" />
+		<title>Document</title>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<main class="main">
+				<div class="main__container">
+
+					<section class="first">
+						<div class="first__container">
+							<div class="first__content">
+								<p class="first__descr"> Требуются специалисты по уборке </p>
+								<h1 class="first__title title"> Надежный доход и удобный график работы </h1>
+								<a class="first__link popup-link">Записаться</a>
+							</div>
+							<div class="first__image">
+								<picture>
+									<source srcset="img/first__image.webm" type="image/webm" media="(min-width:479.98px)" />
+									<source srcset="img/first__image-mobile.jpg" type="image/jpg" media="(max-width:479.98px)" />
+									<img src="img/first__image.jpg" alt="" />
+								</picture>
+							</div>
+							<img class="first__small-logo" src="img/logo_small.png" alt="small-logo" />
+						</div>
+					</section>
+
+					<section class="services">
+						<div class="services__container container">
+							<h2 class="services__title title">Мы предлагаем</h2>
+							<div class="services__list">
+								<div class="services__item services__item_1">
+									<div class="services__image">
+										<img src="img/services__item1.svg" alt="" />
+									</div>
+									<h4 class="services__item-title item-title"> Выплаты вовремя </h4>
+									<p class="services__text text"> Выплата на банковскую карту.2 раза в месяц. </p>
+								</div>
+								<div class="services__item services__item_2">
+									<div class="services__image">
+										<img src="img/services__item2.svg" alt="" />
+									</div>
+									<h4 class="services__item-title item-title"> Удобное расписание </h4>
+									<p class="services__text text"> Большой выбор графиков. Можно составить индивидуальный. </p>
+								</div>
+								<div class="services__item services__item_3">
+									<div class="services__image">
+										<img src="img/services__item3.svg" alt="" />
+									</div>
+									<h4 class="services__item-title item-title"> Много заказов </h4>
+									<p class="services__text text"> Скажите свои рабочие дни, а мы обеспечим заказами. </p>
+								</div>
+								<div class="services__item services__item_4">
+									<div class="services__image">
+										<img src="img/services__item4.svg" alt="" />
+									</div>
+									<h4 class="services__item-title item-title"> Выдаем инвентарь </h4>
+									<p class="services__text text"> Все необходимое для уборки предоставляет компания. </p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="enter">
+						<div class="enter__container container">
+							<h2 class="enter__title title"> Как стать частью команды? </h2>
+							<div class="enter__list">
+								<div class="enter__item">
+									<div class="enter__number">1</div>
+									<h4 class="enter__item-title item-title"> Заполните анкету </h4>
+									<p class="enter__text text"> Расскажите немного про себя. Нам важно познакомиться. </p>
+								</div>
+								<div class="enter__item">
+									<div class="enter__number">2</div>
+									<h4 class="enter__item-title item-title"> Оплачиваемая стажировка </h4>
+									<p class="enter__text text"> Выйдете на реальный заказа с опытным клинером. Стажировка
+										полностью оплачивается </p>
+								</div>
+								<div class="enter__item">
+									<div class="enter__number">3</div>
+									<h4 class="enter__item-title item-title"> Работайте зарабатывайте </h4>
+									<p class="enter__text text"> Вы часть дружной команды. Сделайте свою жизнь стабильной с
+										UberClean. </p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="questionary">
+						<div class="questionary__top-container container">
+							<h2 class="questionary__title">Анкета</h2>
+							<img src="img/form.png" alt="form" />
+						</div>
+						<div class="questionary__container">
+							<div class="container">
+								<form class="questionary__form" action="#" method="post" enctype="multipart/form-data">
+									<div class="questionary__image">
+										<img src="img/women-form.png" alt="image" />
+									</div>
+									<div class="questionary__form-block">
+										<div class="questionary__form-box">
+											<span class="questionary__input-title">Ф.И.О.</span>
+											<input class="questionary__input" type="text" name="user-name" value="" />
+											<span class="questionary__input-title">Дата рождения</span>
+											<input class="questionary__input" type="datetime" name="user-date" value=""
+												placeholder="22.03.1975" />
+										</div>
+										<div class="questionary__form-box">
+											<span class="questionary__input-title">Телефон</span>
+											<input class="questionary__input" type="tel" name="user-phone" value="" />
+											<span class="questionary__input-title">Гражданство</span>
+											<input class="questionary__link popup-link" type="submit"
+												value="Записаться на собеседование" />
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</section>
+						<div class="questions__container container accordion accordion-1 turn">
+							<h2 class="questions__title title">Отвечаем на вопросы</h2>
+							<h4 class="questions__subtitle item-title accordion__btn open"> На первую уборку я поеду одна? </h4>
+							<div class="accordion__content open">
+								<p class="questions__text text"> Нет. На первый заказ вы едите с опытным
+									клинером, вашим наставником. </p>
+							</div>
+							<h4 class="questions__subtitle item-title accordion__btn"> Мне оплатят стажировку? </h4>
+							<div class="accordion__content">
+								<p class="questions__text text"> Да, стажировка оплачивается. Ведь вы едите на
+									полноценный заказ. </p>
+							</div>
+							<h4 class="questions__subtitle item-title accordion__btn"> Что мне нужно делать на уборке? </h4>
+							<div class="accordion__content">
+								<p class="questions__text text"> Это все расскажут на собеседовании. Потом все
+									повторят на уборке на практике. И выдадим очень подробную инструкцию. </p>
+							</div>
+							<h4 class="questions__subtitle item-title accordion__btn"> Какой у меня будет график работы? </h4>
+							<div class="accordion__content">
+								<p class="questions__text text"> У нас большие и гибкие возможности. Поэтому вы
+									можете составить свой график работы. Указать время в которое принимаете заказы. Самые популярные
+									графики в нашей компании 5/2 6/1 2/2 </p>
+							</div>
+							<h4 class="questions__subtitle item-title accordion__btn"> Что взять с собой на первую уборку?
+							</h4>
+							<div class="accordion__content img-cover">
+								<div class="ibg"><img src="img/first__image.jpg" alt=""></div>
+								<!-- <p class="questions__text text"> Весь инвентарь будет у вашего наставника. Вам
+									нужно только взять сменную одежду для комфортной работы. После стажировки вам предоставят форму. </p> -->
+							</div>
+							<div class="questions__link ">
+								<a class="popup-link">Записаться</a>
+							</div>
+						</div>
+					</section> -->
+				</div>
+			</main>
+		</div>
+		<div class="popup">
+			<div class="popup__container">
+				<div class="popup__content">
+					<form class="popup__form " action="#" method="get">
+						<div class="popup__form-block">
+							<span class="popup__input-title">Ф.И.О.</span>
+							<input class="popup__input" type="text" name="user-name" value="" />
+							<span class="popup__input-title">Дата рождения</span>
+							<input class="popup__input" type="date" name="user-name" value="" placeholder="22.03.1975" />
+							<span class="popup__input-title">Телефон</span>
+							<input class="popup__input" type="tel" name="user-name" value="" />
+							<span class="popup__input-title">Гражданство</span>
+						</div>
+						<input class="popup__form-submit" type="submit" value="Записаться на собеседование" />
+					</form>
+					<div class="popup__success">
+						<h4 class="popup__success-title">Вы успешно записаны!</h4>
+						<p class="popup__success-text text">Сейчас вам перезвонят для уточнения деталей.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+
+</html>
